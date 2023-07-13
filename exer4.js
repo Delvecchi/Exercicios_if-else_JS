@@ -2,7 +2,7 @@ console.log("Exercício 4")
 
 let prompt = require("prompt-sync")();
 
-let numero = parseFloat(prompt("Informe um número inteiro: "))
+let numero = parseInt(prompt("Informe um número inteiro: "))
 
 let numero2 = numero % 2 
 if(numero2 == 0 ) {
